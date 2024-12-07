@@ -1,0 +1,50 @@
+/* Set background color for the entire product list container */
+body {
+    background-color: #007bff; /* Bright blue background */
+    font-family: Arial, sans-serif; /* Consistent font style */
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white; /* Contrast table background */
+    border-radius: 8px; /* Slightly rounded corners */
+    overflow: hidden; /* Ensures rounded corners work well */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #0056b3; /* Darker blue for table headers */
+    color: white; /* Text color for better readability */
+}
+
+tr:hover {
+    background-color: #dbeeff; /* Light blue hover effect for rows */
+}
+
+/* Style for the container holding the product list */
+.product-list-container {
+    max-width: 1200px;
+    margin: 20px auto; /* Center the container on the page */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #e6f7ff; /* Light blue background inside the content area */
+}
+
+/* Add some styling to the heading */
+.product-list-container h2 {
+    text-align: center;
+    color: white; /* Contrast text color on blue background */
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Optional: shadow for the heading */
+}

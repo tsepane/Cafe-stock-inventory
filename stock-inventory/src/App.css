@@ -1,0 +1,51 @@
+body {
+  background-color: #ffc0cb;  /* Light pink background for the entire page */
+  font-family: Arial, sans-serif;  /* Optional: set a default font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container that holds the entire app */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Navbar styling */
+nav {
+  background-color: #ffc0cb;  /* Pink background for the navbar */
+  padding: 10px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 2px -2px gray;  /* Optional: adds shadow to navbar for effect */
+  margin: 0; /* Remove any default margin */
+  border-bottom: 2px solid #fff; /* Optional: adds a slight border for separation */
+}
+
+/* Main content area that contains the logo and the content */
+.main-content {
+  display: flex;
+  flex-direction: row; /* Ensure logo and content are placed horizontally */
+  flex: 1;  /* Make sure the content area takes the remaining height */
+  padding: 0; /* Remove padding between elements */
+}
+
+/* Styling for the logo container */
+.logo-container {
+  flex: 0 0 auto; /* Logo should not stretch */
+  margin: 0; /* Remove any margin between the logo and navbar */
+}
+
+.logo {
+  max-width: 400px; /* Adjust logo size as needed */
+  height: auto;
+}
+
+/* Content area */
+.content-area {
+  flex: 1;  /* Make sure the content area takes up remaining space */
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
